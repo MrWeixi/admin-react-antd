@@ -2,7 +2,7 @@ import * as types from "../action-types";
 const initState = {
   taglist: [],
 };
-export default function app(state = initState, action) {
+export default function tags(state = initState, action) {
   switch (action.type) {
     case types.TAGSVIEW_ADD_TAG:
       const tag = action.tag;
