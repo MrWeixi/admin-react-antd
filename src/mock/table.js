@@ -6,9 +6,9 @@ for (let i = 0; i < count; i++) {
   List.push(
     Mock.mock({
       id: i,
-      title: "@ctitle(5, 10)",
+      title: "@ctitle(4, 15)",
       author: "@cname",
-      readings: "@integer(300, 5000)",
+      readings: "@integer(100, 10000)",
       "star|1-3": "★",
       "status|1": ["published", "draft"],
       date: "@datetime",
